@@ -1,0 +1,27 @@
+.footer1{
+background-color:rgb(4, 4, 78);
+height: 100vh;
+position:absolute;
+    top: 350%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+
+.hid{
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .footer1{
+        top:608%; 
+        height: 800px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
+  }
+.head2{
+    border-bottom: 2px solid white;
+}
+.icon{
+    color: white;
+}

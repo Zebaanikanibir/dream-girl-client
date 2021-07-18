@@ -1,0 +1,38 @@
+.cart1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.card1{
+border: 2px solid blue;
+text-align: center;
+}
+.card1 h6{
+    text-align:center ;
+}
+
+
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btnn{
+    
+
+        width: 150px;
+        padding: 13px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid red;
+       background-color: darkred;
+        color: white;
+        cursor: pointer;
+        overflow: hidden;
+      
+}

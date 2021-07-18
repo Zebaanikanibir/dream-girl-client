@@ -1,0 +1,20 @@
+.img{
+ background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url('../../images//img10.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+    position: absolute;
+    top: 180%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        
+    }
+   
+  }

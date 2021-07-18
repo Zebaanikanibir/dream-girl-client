@@ -1,6 +1,7 @@
 .body{
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .slide1, .slide2, .slide3, .slide4{
@@ -11,13 +12,15 @@ overflow: hidden;
 }
 .product{
   position: absolute;
-  top:102%
+  top:100%;
+ overflow: hidden;
 }
 
-.contact{
+/* .contact{
   position: absolute;
-  top:1000%
-}
+  top:200%;
+  margin: auto;
+} */
 .slide1{
   background-image: url(../../../../images/image1.jpg);
   background-repeat: no-repeat;
@@ -164,6 +167,7 @@ visibility: hidden;
   border: 2px solid skyblue;
   background-color: blue;
   cursor: pointer;
+  color: white;
   position: relative;
   
   }

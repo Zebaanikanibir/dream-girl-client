@@ -1,0 +1,40 @@
+.contact{
+
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url('../.././images/pexels-tuấn-kiệt-jr-1382728.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top:260%;
+}
+@media only screen and (max-width: 600px) {
+    .contact{
+        top:300%; 
+    }
+   
+  }
+#send{
+
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid blue;
+   background-color: transparent;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    }
+    .head1{
+        border-bottom: 2px solid red;
+        width: 500px;
+        margin: auto;
+    }
+
+    
