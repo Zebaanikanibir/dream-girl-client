@@ -10,6 +10,10 @@ import Login from './Components/Login/Login';
 import Register from './Components/Login/Register';
 import Cart from './Components/Cart/Cart';
 import SingleProduct from './Components/SingleProduct/SingleProduct';
+import OrderConfirem from './Components/OrderConfirm/OrderConfirem';
+import PrivateRoute from './Components/Login/PrivateRoute'
+import Contact from './Components/Contact/Contact';
+
 export const UserContext = createContext();
 
 
@@ -22,10 +26,23 @@ function App() {
           <Route path="/home" component={Home}></Route>
             
           
-          <Route path="/login" component={Login}></Route>
-          <Route path="/register" component={Register}> </Route>
+          <Route path="/login" component={Login} >
+            
+          </Route>
+          <Route path="/register"> 
+          <Register></Register>
+          </Route>
           <Route path="/product/:id" component={SingleProduct}></Route>
           <Route path="/cart/:id?" component={Cart}></Route>
+          {/* <PrivateRoute exact path="/order/:id" >
+            <OrderConfirem></OrderConfirem>
+          </PrivateRoute> */}
+          <PrivateRoute exact path="/order/:id" ><OrderConfirem></OrderConfirem></PrivateRoute>
+          
+          <PrivateRoute exact path="/order/:id" >
+            <OrderConfirem></OrderConfirem>
+          </PrivateRoute>
+          <Route path="/contact"><Contact></Contact></Route>
           <Route exact path="/" component={Home}></Route>
 
         </Switch>

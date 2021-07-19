@@ -35,10 +35,14 @@ const Cart = (props) => {
     }
     const checkoutHandler = () => {
 
-        history.push('/signin?redirect=shipping')
+       
+
+            history.push(`/order/${id}`)
+        
+         
     }
     return (
-        <div>
+        <div className="cBack">
             <div className="pro">
 
 

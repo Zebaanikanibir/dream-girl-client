@@ -234,3 +234,15 @@ visibility: hidden;
   .box{
     box-shadow: 10px 10px 30px gray;
   }
+
+  .navHead{
+    position: relative;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  #brand{
+    color: red;
+    font-weight: 800;
+    font-size: larger;
+  }

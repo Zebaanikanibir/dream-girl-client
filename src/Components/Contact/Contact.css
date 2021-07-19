@@ -9,14 +9,8 @@
     width: 100%;
     overflow: hidden;
     position: absolute;
-    top:260%;
+    
 }
-@media only screen and (max-width: 600px) {
-    .contact{
-        top:300%; 
-    }
-   
-  }
 #send{
 
     width: 200px;

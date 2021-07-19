@@ -1,0 +1,29 @@
+#payBtn{
+
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: darkred;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.ppp{
+    border-bottom: 2px solid black;
+}
+
+.pay{
+    background-color: rgb(203, 227, 236);
+    height: 650px;
+}
+
+.cBack{
+    background-color:rgb(203, 227, 236) ;
+}

@@ -13,7 +13,7 @@ const Login = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     const history = useHistory()
   const location = useLocation()
-  let { from } = location.state || { from: { pathname: "/" } };
+  let { from } = location.state || { from: { pathname: "/order" } };
     const { register, handleSubmit, formState: {
         errors
 

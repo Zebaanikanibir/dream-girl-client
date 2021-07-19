@@ -3,6 +3,7 @@ import image1 from '../../../../images/image1.jpg';
 import image2 from '../../../../images/image2.jpg';
 import image3 from '../../../../images/image3.jpg';
 import image4 from '../../../../images/image4.jpg';
+import NavHead from '../NavHead/NavHead';
 import './Header.css';
 const slides = [
 
@@ -35,6 +36,7 @@ const slides = [
 const Header = () => {
   return (
    <div className="body">
+      
        <div className="slider">
         
      

@@ -23,7 +23,7 @@ const SingleProduct = (props) => {
         props.history.push(`/cart/${id}?qty=${qty}`)
     }
   return (
-    <div>
+    <div className="cBack">
 
             {loading ? (
                 // <LoadingBox></LoadingBox>

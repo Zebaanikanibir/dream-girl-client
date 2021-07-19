@@ -5,6 +5,7 @@ import Product from './Product/Product'
 import Footer from './Footer/Footer'
 import Image from '../../Image/Image';
 import About from '../../About/About'
+import NavHead from './NavHead/NavHead'
 const Home = () => {
     
 
@@ -15,6 +16,7 @@ const Home = () => {
      <Image></Image>
      <About></About>
      <Footer></Footer>
+     <NavHead></NavHead>
     </div>
   )
 }
