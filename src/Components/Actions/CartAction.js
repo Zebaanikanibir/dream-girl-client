@@ -5,7 +5,7 @@ import { CART_ADD_ITEM, CART_REMOVE_ITEM } from "../Contants/Contants";
 export const addToCart =(id, qty)=> async(dispatch, getState)=>{
 
 
-const {data} = await Axios.get(`http://localhost:5011/product/${id}`);
+const {data} = await Axios.get(`https://shielded-shelf-45161.herokuapp.com/product/${id}`);
 dispatch({
 
     type: CART_ADD_ITEM,

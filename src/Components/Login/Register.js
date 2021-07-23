@@ -46,7 +46,7 @@ const Register = () => {
 
 
 
-        const url = `http://localhost:5011/registered`
+        const url = `https://shielded-shelf-45161.herokuapp.com/registered`
         console.log(eventData)
 
         fetch(url, {

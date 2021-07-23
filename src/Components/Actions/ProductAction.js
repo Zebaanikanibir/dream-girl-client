@@ -12,7 +12,7 @@ dispatch({
     type: GET_USER_REQUEST
 })
 
-const {data} = await axios.get('http://localhost:5011/products')
+const {data} = await axios.get('https://shielded-shelf-45161.herokuapp.com/products')
 console.log(data)
 dispatch({
     type: GET_USER_SUCCESS,
@@ -36,7 +36,7 @@ export const detailsProduct = (id) => async(dispatch) => {
     });
     try{
     
-    const {data} = await axios.get(`http://localhost:5011/product/${id}`)
+    const {data} = await axios.get(`https://shielded-shelf-45161.herokuapp.com/product/${id}`)
     dispatch({
         type: PRODUCT_DETAILS_SUCCESS, 
         payload: data});

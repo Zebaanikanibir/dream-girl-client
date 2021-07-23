@@ -35,7 +35,7 @@ const OrderConfirem = () => {
         const newOrder = { ...loggedInUser, paymentId, orderTime: new Date().toDateString('dd/MM/yyyy') }
     
         console.log(loggedInUser)
-        fetch('http://localhost:5011/addOrder', {
+        fetch('https://shielded-shelf-45161.herokuapp.com/addOrder', {
             method: 'POST',
             headers: {
     
