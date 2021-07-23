@@ -11,7 +11,9 @@
     overflow: hidden;
 }
 @media only screen and (max-width: 600px) {
+    
     .img{
+        top: 280%;
         display: grid;
         grid-template-columns: repeat(1, 1fr); 
         
