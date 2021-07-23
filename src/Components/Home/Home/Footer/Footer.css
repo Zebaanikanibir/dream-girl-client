@@ -13,7 +13,7 @@ position:absolute;
 }
 @media only screen and (max-width: 600px) {
     .footer1{
-        top:1046%; 
+        top:1070%; 
         height: 800px;
         grid-template-columns: repeat(1, 1fr);
     }

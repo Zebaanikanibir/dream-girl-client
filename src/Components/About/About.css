@@ -49,7 +49,7 @@ color: rgb(231, 179, 196);
   }
 @media only screen and (max-width: 600px) {
     .about{
-        top: 740%; 
+        top: 760%; 
         height: 800px;
         grid-template-columns: repeat(1, 1fr);
     }
