@@ -246,3 +246,15 @@ visibility: hidden;
     font-weight: 800;
     font-size: larger;
   }
+
+  .icon{
+    color: white;
+    font-size: larger;
+  }
+
+  .badge span{
+    color: red;
+    font-size: larger;
+  }
+
+  

@@ -5,32 +5,6 @@ import image3 from '../../../../images/image3.jpg';
 import image4 from '../../../../images/image4.jpg';
 import NavHead from '../NavHead/NavHead';
 import './Header.css';
-const slides = [
-
-    {
-        id: 0,
-        url: "https://i.ibb.co/dp7QvyR/Pretty-smiling-girl-keeps-both-hands-on-cheeks-smiles-broadly-being-in-good-mood-after-stroll-with-b.jpg"
-
-    },
-{
-        id: 1,
-        url: "https://i.ibb.co/dp7QvyR/Pretty-smiling-girl-keeps-both-hands-on-cheeks-smiles-broadly-being-in-good-mood-after-stroll-with-b.jpg"
-
-    },{
-        id: 2,
-        url: "https://i.ibb.co/6JyD4Z3/young-stylish-sexy-woman-in-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio.jpg" 
-
-    },{
-        id: 3,
-        url: "https://i.ibb.co/y8jd7Pt/Studio-portrait-of-emotive-happy-feminine-woman-with-curly-hair-wearing-casual-hoodie-and-sunglasses.jpg" 
-
-    },{
-        id: 4,
-        url: "https://i.ibb.co/2sYG5YG/Young-beautiful-brunette-businesswoman-smiling-looking-at-camera-pointing-finger-in-side-over-white.jpg" 
-
-    }
-
-]
 
 
 const Header = () => {
